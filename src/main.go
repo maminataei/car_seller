@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/maminataei/car_seller/api"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	api.InitServer()
 }
